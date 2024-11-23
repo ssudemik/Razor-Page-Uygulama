@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Sude\\source\\repos\\RazorPageDeneme\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CE18B576-79A2-4553-BDA2-AC07B03F834B}|RazorPageDeneme\\RazorPageDeneme.csproj|c:\\users\\sude\\source\\repos\\razorpagedeneme\\razorpagedeneme\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE18B576-79A2-4553-BDA2-AC07B03F834B}|RazorPageDeneme\\RazorPageDeneme.csproj|solutionrelative:razorpagedeneme\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE18B576-79A2-4553-BDA2-AC07B03F834B}|RazorPageDeneme\\RazorPageDeneme.csproj|c:\\users\\sude\\source\\repos\\razorpagedeneme\\razorpagedeneme\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE18B576-79A2-4553-BDA2-AC07B03F834B}|RazorPageDeneme\\RazorPageDeneme.csproj|solutionrelative:razorpagedeneme\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE18B576-79A2-4553-BDA2-AC07B03F834B}|RazorPageDeneme\\RazorPageDeneme.csproj|c:\\users\\sude\\source\\repos\\razorpagedeneme\\razorpagedeneme\\pages\\product.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE18B576-79A2-4553-BDA2-AC07B03F834B}|RazorPageDeneme\\RazorPageDeneme.csproj|solutionrelative:razorpagedeneme\\pages\\product.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE18B576-79A2-4553-BDA2-AC07B03F834B}|RazorPageDeneme\\RazorPageDeneme.csproj|c:\\users\\sude\\source\\repos\\razorpagedeneme\\razorpagedeneme\\pages\\product.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE18B576-79A2-4553-BDA2-AC07B03F834B}|RazorPageDeneme\\RazorPageDeneme.csproj|solutionrelative:razorpagedeneme\\pages\\product.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sude\\source\\repos\\RazorPageDeneme\\RazorPageDeneme\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "RazorPageDeneme\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Sude\\source\\repos\\RazorPageDeneme\\RazorPageDeneme\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "RazorPageDeneme\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAuwDUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-23T14:25:43.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Sude\\source\\repos\\RazorPageDeneme\\RazorPageDeneme\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "RazorPageDeneme\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\Sude\\source\\repos\\RazorPageDeneme\\RazorPageDeneme\\Models\\Product.cs",
+              "RelativeToolTip": "RazorPageDeneme\\Models\\Product.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T14:16:46.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Product.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sude\\source\\repos\\RazorPageDeneme\\RazorPageDeneme\\Pages\\Product.cshtml",
+              "RelativeDocumentMoniker": "RazorPageDeneme\\Pages\\Product.cshtml",
+              "ToolTip": "C:\\Users\\Sude\\source\\repos\\RazorPageDeneme\\RazorPageDeneme\\Pages\\Product.cshtml",
+              "RelativeToolTip": "RazorPageDeneme\\Pages\\Product.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-23T13:59:16.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Product.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Sude\\source\\repos\\RazorPageDeneme\\RazorPageDeneme\\Pages\\Product.cshtml.cs",
+              "RelativeDocumentMoniker": "RazorPageDeneme\\Pages\\Product.cshtml.cs",
+              "ToolTip": "C:\\Users\\Sude\\source\\repos\\RazorPageDeneme\\RazorPageDeneme\\Pages\\Product.cshtml.cs",
+              "RelativeToolTip": "RazorPageDeneme\\Pages\\Product.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T13:59:27.61Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
