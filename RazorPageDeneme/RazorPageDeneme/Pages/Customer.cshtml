@@ -1,0 +1,51 @@
+﻿@page
+@using RazorPageDeneme.Models
+@model CustomerModel
+@{
+    <br />
+    <h2>Customer</h2>
+    <br />
+    <table id="tbl1" class="table table-striped" style="margin-top:20px">
+        <thead class="thead-dark">
+            <tr>
+                <th> Customer ID</th>
+                <th> Name </th>
+                <th> Surname </th>
+                <th> City </th>
+                <th> Mail </th>
+                <th>  </th>
+                <th>  </th>
+                <th>  </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (Customer x in Model.Customers)
+        {
+            <tr>
+                <td>@x.CustomerID </td>
+                <td>@x.CustomerName </td>
+                <td>@x.CustomerSurname </td>
+                <td>@x.CustomerCity </td>
+                <td>@x.CustomerMail </td>
+                <td> <a href="/Customer/CustomerDelete/@x.CustomerID" class="btn btn-danger"> Delete </a></td>
+                <td> <a href="/Customer/CustomerBring/@x.CustomerID" class="btn btn-success"> Update </a></td>
+                <td> <a href="/Customer/CustomerSales/@x.CustomerID" class="btn btn-succses" style="background-color:hotpink; color:white"> Sales History </a> </td>
+
+            </tr>
+        }
+        </tbody>
+    </table>
+    <a href="/Customer/CustomerAdd/" class="btn btn-info" style="color:white"> Add Customer </a>
+
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <link href="https://cdn.datatables.net/1.10.15/css/dataTables.bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdn.datatables.net/responsive/2.1.1/css/responsive.bootstrap.min.css" rel="stylesheet" />
+    <script src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.15/js/dataTables.bootstrap4.min.js "></script>
+
+    <script>
+        $('#tbl1').dataTable({});
+    </script>
+}

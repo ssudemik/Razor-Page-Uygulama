@@ -13,12 +13,16 @@ namespace RazorPageDeneme.Pages
 
         [BindProperty]
         public Product NewProduct { get; set; }
+       
 
         public ProductModel(Context context)
         {
             _context = context;
         }
-        
+       
+
+       
+
         public void OnGet()
         {
             Products = _context.Products.ToList();

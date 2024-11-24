@@ -52,7 +52,7 @@
                     <a href="/Product/ProductList/@p.ProductID" class="btn btn-success"> Update </a>
                 </td>
                 <td>
-                    <a href="/Product/ProductSale/@p.ProductID" class="btn btn-success"> Sale </a>
+                     <a href="@Url.Page("/ProductSale", new { id = p.ProductID })" class="btn btn-success"> Sale </a>
                 </td>
             </tr>
         }

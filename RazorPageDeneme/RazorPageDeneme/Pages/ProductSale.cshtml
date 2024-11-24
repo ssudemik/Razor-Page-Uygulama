@@ -1,0 +1,49 @@
+﻿@page
+@model RazorPageDeneme.Pages.ProductSaleModel
+@{
+    
+
+
+<h2>Product Sale</h2>
+
+<form class="form-group" method="post">
+    <div class="form-group">
+        <label asp-for="SalesTransaction.ProductID" class="control-label"></label>
+        <input type="text" class="form-control" asp-for="SalesTransaction.ProductID" value="@Model.SalesTransaction.ProductID" readonly />
+    </div>
+    <div class="form-group">
+        <label asp-for="SalesTransaction.CustomerID" class="control-label"></label>
+        <input asp-for="SalesTransaction.CustomerID" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="SalesTransaction.Piece" class="control-label"></label>
+        <input type="number" id="txt1" class="form-control" value="0" min="0" max="10" onchange="sum();" />
+    </div>
+
+   
+
+    <div class="form-group">
+        <label asp-for="SalesTransaction.Price" class="control-label"></label>
+        <input type="text" class="form-control" value="@Model.ProductPrice" id="txt2" readonly />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="SalesTransaction.SumPrice" class="control-label"></label>
+        <input type="text" class="form-control" id="txt3" readonly />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Sale</button>
+</form>
+
+<script>
+    function sum() {
+        var sayi1 = document.getElementById('txt1').value;
+        var sayi2 = document.getElementById('txt2').value;
+        var sonuc = parseInt(sayi1) * parseFloat(sayi2); // fiyat ondalıklı olabilir
+        if (!isNaN(sonuc)) {
+            document.getElementById('txt3').value = sonuc;
+        }
+    }
+</script>
+}

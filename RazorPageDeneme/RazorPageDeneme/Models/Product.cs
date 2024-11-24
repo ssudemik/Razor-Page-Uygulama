@@ -29,6 +29,6 @@ namespace RazorPageDeneme.Models
         [StringLength(8000)]
         public string? ProductVisual { get; set; }
 
-        
+        public ICollection<SalesTransaction> SalesTransactions { get; set; }
     }
 }

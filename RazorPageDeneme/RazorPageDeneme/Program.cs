@@ -1,3 +1,4 @@
+using Microsoft.EntityFrameworkCore;
 using RazorPageDeneme.Models;
 
 namespace RazorPageDeneme
@@ -13,7 +14,11 @@ namespace RazorPageDeneme
             // Add services to the container.
             builder.Services.AddRazorPages();
 
-            builder.Services.AddDbContext<Context>();
+            // builder.Services.AddDbContext<Context>();
+
+           
+            builder.Services.AddDbContext<Context>(options =>
+                options.UseSqlServer(builder.Configuration.GetConnectionString("Context")));
 
             var app = builder.Build();
 
